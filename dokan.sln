@@ -20,6 +20,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dokan_memfs", "samples\dokan_memfs\dokan_memfs.vcxproj", "{07E55DA5-7237-465A-8338-0B582452CC78}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dokan_replicator", "samples\dokan_replicator\dokan_replicator.vcxproj", "{196D90A0-54D9-4DA2-8212-6B8B6BADD8C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F25BA22F-2AB8-4859-9B89-8FE1E774B472} = {F25BA22F-2AB8-4859-9B89-8FE1E774B472}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
